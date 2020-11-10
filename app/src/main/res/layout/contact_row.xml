@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:background="@android:color/transparent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/frame_contacts">
+
+        <ImageView
+            android:id="@+id/icon_person_contacts"
+            android:layout_width="@dimen/size_icons"
+            android:layout_height="@dimen/size_icons"
+            android:src="@drawable/icon_person"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:visibility="gone"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_toRightOf="@id/icon_person_contacts"
+            android:layout_toLeftOf="@+id/layout_temp"
+            android:layout_centerInParent="true">
+
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textAlignment="center"
+                android:textSize="@dimen/size_normal"
+                android:text="@string/text_test"
+                android:textColor="@color/colorContact"/>
+
+            <TextView
+                android:id="@+id/phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="@dimen/size_normal"
+                android:text="@string/text_test"
+                android:textColor="@color/colorContact"
+                android:visibility="gone"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_temp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true">
+
+            <ImageView
+                android:id="@+id/mark"
+                android:layout_width="@dimen/size_icons"
+                android:layout_height="@dimen/size_icons"
+                android:src="@drawable/icon_favorites"/>
+
+            <Button
+                android:id="@+id/icon_call"
+                android:layout_width="@dimen/size_icons"
+                android:layout_height="@dimen/size_icons"
+                android:background="@drawable/icon_call"
+                android:visibility="gone"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
+

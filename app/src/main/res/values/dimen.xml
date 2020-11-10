@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="distance_of_top">22dp</dimen>
+    <dimen name="size_icons">50dp</dimen>
+    <dimen name="size_small">15sp</dimen>
+    <dimen name="size_normal">18sp</dimen>
+    <dimen name="margin_small">5dp</dimen>
+</resources>

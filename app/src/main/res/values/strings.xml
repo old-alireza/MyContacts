@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">My Contacts</string>
+    <string name="text_test">this is a simple test</string>
+    <string name="loading">loading...</string>
+</resources>
