@@ -63,7 +63,6 @@ public class FavoritesFragment extends Fragment {
 
             @Override
             public void starClick(int position, ImageView star) {
-                Toast.makeText(getContext(), "position : "+position, Toast.LENGTH_SHORT).show();
             }
         });
     }
