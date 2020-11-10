@@ -8,6 +8,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -62,6 +63,7 @@ public class FavoritesFragment extends Fragment {
 
             @Override
             public void starClick(int position, ImageView star) {
+                Toast.makeText(getContext(), "position : "+position, Toast.LENGTH_SHORT).show();
             }
         });
     }
