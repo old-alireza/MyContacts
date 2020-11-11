@@ -66,6 +66,7 @@ public class FavoritesFragment extends Fragment {
                       Toast.makeText(getContext(), "position :"+position, Toast.LENGTH_SHORT).show();
             }
         });
+        //aa
     }
 
     private void setRecyclerView() {
